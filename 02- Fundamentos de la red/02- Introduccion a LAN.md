@@ -70,3 +70,20 @@ Complete el laboratorio interactivo adjunto a esta tarea. ¿Cuál es la bandera 
 ¿Qué dirección se utiliza como identificador lógico para un dispositivo en una red?
 
     IP Address
+
+## El protocolo DHCP
+
+
+¿Qué tipo de paquete DHCP utiliza un dispositivo para recuperar una dirección IP?
+
+    DHCP Discover
+
+¿Qué tipo de paquete DHCP envía un dispositivo una vez que el servidor DHCP le ha  ofrecido una dirección IP ?
+
+    DHCP Request
+
+Finalmente, ¿cuál es el último paquete DHCP que se envía a un dispositivo desde un servidor DHCP?
+
+    DHCP ACK
+
+
