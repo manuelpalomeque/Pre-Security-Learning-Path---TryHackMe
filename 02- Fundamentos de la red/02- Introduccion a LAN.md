@@ -27,3 +27,28 @@ Complete el laboratorio interactivo adjunto a esta tarea. ¿Cuál es la bandera 
 
     THM{TOPOLOGY_FLAWS}
 
+## Introducción a la división en subredes:
+
+¿Cuál es el término técnico para dividir una red en partes más pequeñas?
+
+    Subnetting
+
+¿Cuántos bits hay en una máscara de subred?
+
+    32
+
+¿Cuál es el rango de una sección (octeto) de una máscara de subred?
+
+    0-255
+
+¿Qué dirección se utiliza para identificar el inicio de una red?
+
+    Network Address
+
+¿Qué dirección se utiliza para identificar dispositivos dentro de una red?
+
+    Host Address
+
+¿Cuál es el nombre que se utiliza para identificar el dispositivo responsable de enviar datos a otra red?
+
+    Default Gateway
