@@ -52,3 +52,21 @@ Complete el laboratorio interactivo adjunto a esta tarea. ¿Cuál es la bandera 
 ¿Cuál es el nombre que se utiliza para identificar el dispositivo responsable de enviar datos a otra red?
 
     Default Gateway
+
+## El protocolo ARP:
+
+¿Qué significa ARP?
+
+    Address Resolution Protocol
+
+¿Qué categoría de paquete ARP le pregunta a un dispositivo si tiene o no una dirección IP específica?
+
+    Request
+
+¿Qué dirección se utiliza como identificador físico para un dispositivo en una red?
+
+    MAC Address
+
+¿Qué dirección se utiliza como identificador lógico para un dispositivo en una red?
+
+    IP Address
