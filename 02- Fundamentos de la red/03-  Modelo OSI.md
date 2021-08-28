@@ -31,3 +31,52 @@
 ¿Cuál es el propósito principal que cumple esta Capa?
 
     translator
+
+## Capa 5 - Sesión
+
+¿Cuál es el nombre de esta capa?
+
+    session
+
+¿Cuál es el término técnico para cuando una conexión se establece con éxito?
+
+    session
+
+¿Cuál es el término técnico para "pequeños fragmentos de datos"?
+
+    packets
+
+## Capa 4 - Transporte
+
+¿Cuál es el nombre de esta capa?
+
+    transport
+
+¿Qué significa TCP?
+
+    Transmission Control Protocol
+
+¿Qué significa UDP?
+
+    User Datagram Protocol
+
+¿Qué protocolo garantiza la exactitud de los datos?
+
+    tcp
+
+¿A qué protocolo no le importa si el otro dispositivo recibe o no datos?
+
+    udp
+
+¿Qué protocolo usaría una aplicación como un cliente de correo electrónico?
+
+    tcp
+
+¿Qué protocolo usaría una aplicación que descarga archivos?
+
+    tcp
+
+¿Qué protocolo usaría una aplicación que transmite video?
+
+    udp
+
