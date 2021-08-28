@@ -80,3 +80,54 @@
 
     udp
 
+## Capa 3 - Red
+
+¿Cuál es el nombre de esta capa?
+
+    network
+
+¿Tomarán los paquetes la ruta más óptima a través de una red? (S/N)
+
+    y (yes)
+
+¿Qué significa el acrónimo “OSPF”?
+
+    Open Shortest Path First
+
+¿Qué significa el acrónimo “RIP”?
+
+    Routing Information Protocol
+
+¿Qué tipo de direcciones se tratan en esta capa?
+
+    IP addresses
+
+## Capa 2 - Enlace de datos
+
+¿Cuál es el nombre de esta capa?
+
+    data link
+
+¿Cuál es el nombre de la pieza de hardware con la que vienen todos los dispositivos en red?
+
+    Network Interface Card
+
+## Capa 1 - Física
+
+¿Cuál es el nombre de esta capa?
+
+    physical
+
+¿Cómo se llama el sistema de numeración que es tanto 0 como 1?
+
+    binary
+
+¿Cuál es el nombre de los cables que se utilizan para conectar los dispositivos?
+
+    ethernet cables
+
+## Práctica - Juego OSI
+
+    Escapa de la mazmorra para recuperar la bandera. ¿Qué es la bandera?
+    
+    THM{OSI_DUNGEON_ESCAPED}
