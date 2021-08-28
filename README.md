@@ -13,7 +13,9 @@ Paquetes y Marcos, TCP/IP (The Three-Way Handshake), UDP/IP, puertos.
 Ampliando los conocimientos de redes, reenvío de puertos, firewalls, introducción a las VPN.
 
 #### **_03- Cómo funciona la web:_** 
-DNS, HTTP, funcionamiento de sitios web.
+Definición de DNS, jerarquía de dominio, tipos de registros, solicitudes DNS. 
+HTTP y HTTPS, solicitudes y respuestas, metodos, Codigos de estado, encabezados (Headers), cookies.
+Funcionamiento de sitios web.
 
 #### **_04- Fundamentos de Linux:_** 
 
