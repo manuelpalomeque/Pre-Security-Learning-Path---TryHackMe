@@ -22,4 +22,28 @@
 
     ccTLD
 
+## Tipos de registro:
+
+¿Qué tipo de registro se usaría para indicar dónde enviar el correo electrónico?
+    
+    MX
+
+¿Qué tipo de registro maneja las direcciones IPv6?
+
+    AAAA
+
+## Haciendo una solicitud:
+
+¿Qué campo especifica cuánto tiempo se debe almacenar en caché un registro DNS?
+
+    TTL
+
+¿Qué tipo de servidor DNS suele proporcionar su ISP?
+
+    recursive
+
+¿Qué tipo de servidor contiene todos los registros de un dominio?
+
+    authoritative
+
 
