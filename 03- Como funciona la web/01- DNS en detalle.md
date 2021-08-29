@@ -46,4 +46,22 @@
 
     authoritative
 
+## Práctico
+
+¿Cuál es el CNAME de shop.website.thm?
+
+    shops.myshopify.com
+
+¿Cuál es el valor del registro TXT de website.thm?
+
+    THM{7012BBA60997F35A9516C2E16D2944FF}
+
+¿Cuál es el valor de prioridad numérica para el registro MX?
+
+    30
+
+¿Cuál es la dirección IP del registro A de www.website.thm?
+
+    10.10.10.10
+
 
