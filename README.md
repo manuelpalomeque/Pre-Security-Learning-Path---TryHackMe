@@ -16,7 +16,7 @@ Ampliando los conocimientos de redes, reenvío de puertos, firewalls, introducci
 Definición de DNS, jerarquía de dominio, tipos de registros, solicitudes DNS. 
 HTTP y HTTPS, solicitudes y respuestas, metodos, Codigos de estado, encabezados (Headers), cookies.
 Cómo funcionan los sitios web, modelo Cliente - Servidor, HTML, JavaScript, Exposición de datos sensibles, Inyección 
-HTML.
+HTML. Load Balancers, CDN, Base de datos, WAF, Servidores web. 
 
 #### **_04- Fundamentos de Linux:_** 
 

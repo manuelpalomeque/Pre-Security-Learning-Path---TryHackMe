@@ -22,5 +22,39 @@ elemento de demostración a "Hack the Planet".
 
     JSISFUN
 
+## Sintetis / poniendo todo junto
+
+¿Qué se puede utilizar para alojar archivos estáticos y acelerar la visita de un cliente a un sitio web?
+
+    cdn
+
+¿Qué realiza un equilibrador de carga para asegurarse de que un host aún esté activo?
+
+    health check
+
+¿Qué se puede utilizar para ayudar contra la piratería de un sitio web?
+
+    Waf
+
+##  Cómo funcionan los servidores web
+
+¿Qué utiliza el software de servidor web para alojar varios sitios?
+
+    Virtual Hosts
+
+¿Cuál es el nombre del tipo de contenido que puede cambiar?
+
+    Dynamic
+
+¿El cliente ve el código de backend? Sí / No
+
+    Nay
+
+## Examen
+
+bandera/ flag:
+
+    THM{YOU_GOT_THE_ORDER}
+
 
 
