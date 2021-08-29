@@ -19,6 +19,8 @@ Cómo funcionan los sitios web, modelo Cliente - Servidor, HTML, JavaScript, Exp
 HTML. Load Balancers, CDN, Base de datos, WAF, Servidores web. 
 
 #### **_04- Fundamentos de Linux:_** 
+Primeros comandos (echo, whoami), Interactuar con el sistema de archivos (ls, cd, cat, pwd). Búsqueda de archivos 
+(find, grep, cat). Operadores de Shell (&, &&, >, >>)
 
 
 #### **_05- Fundamentos de Windows:_** 
