@@ -20,7 +20,10 @@ HTML. Load Balancers, CDN, Base de datos, WAF, Servidores web.
 
 #### **_04- Fundamentos de Linux:_** 
 Primeros comandos (echo, whoami), Interactuar con el sistema de archivos (ls, cd, cat, pwd). Búsqueda de archivos 
-(find, grep, cat). Operadores de Shell (&, &&, >, >>)
+(find, grep, cat). Operadores de Shell (&, &&, >, >>).
+Introducción a banderas e interruptores. Continuación de la interacción del sistema de archivos (touch, mkdir, cp, mv, 
+rm, file). Directorios comunes (/etc, /var, /root, /tmp).
+Editores de texto de terminal (nano, VIM). Utilidades generales 
 
 
 #### **_05- Fundamentos de Windows:_** 
