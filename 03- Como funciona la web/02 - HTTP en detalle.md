@@ -59,3 +59,44 @@ En la página web simulada a la derecha hay un problema, una vez que lo haya enc
 
     401
 
+## Encabezados
+
+¿Qué encabezado le dice al servidor web qué navegador se está utilizando?
+
+    User-Agent
+
+¿Qué encabezado le dice al navegador qué tipo de datos se devuelven?
+
+    Content-Type
+
+¿Qué encabezado le dice al servidor web qué sitio web se está solicitando?
+
+    Host
+
+## Cookies
+
+¿Qué encabezado se usa para guardar cookies en su computadora?
+    
+    Set-Cookie
+
+## Haciendo peticiones
+
+Haz una solicitud GET a /room
+
+    THM{YOU'RE_IN_THE_ROOM}
+
+Realice una solicitud GET a /blog y usando el icono de engranaje establezca el parámetro id en 1 en el campo URL
+
+    THM{YOU_FOUND_THE_BLOG}
+
+Hacer una solicitud DELETE a /usuario/1
+
+    THM{USER_IS_DELETED}
+
+Realice una solicitud PUT a /user/2 con el parámetro de nombre de usuario establecido en admin
+
+    THM{USER_HAS_UPDATED}
+
+PUBLIQUE el nombre de usuario de thm y una contraseña de letmein a /login
+
+    THM{HTTP_REQUEST_MASTER}
