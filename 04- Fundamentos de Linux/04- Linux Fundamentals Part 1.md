@@ -35,3 +35,21 @@ Use el comando cd para navegar a este archivo y encontrar el nuevo directorio de
     /home/tryhackme/folder4
 
 ## Búsqueda de archivos
+
+Use grep en "access.log" para encontrar el indicador que tiene el prefijo "THM". ¿Qué es la bandera?
+
+THM{ACCESS}
+
+## Una introducción a los operadores de Shell
+
+Si quisiéramos ejecutar un comando en segundo plano, ¿qué operador querríamos usar?
+
+    &
+
+Si quisiera reemplazar el contenido de un archivo llamado "contraseñas" con la palabra "contraseña123", ¿cuál sería mi comando?
+
+    echo password123 > passwords
+
+Ahora, si quisiera agregar "tryhackme" a este archivo llamado "contraseñas" pero también conservar "contraseñas123", ¿cuál sería mi comando?
+
+    echo tryhackme >> passwords
