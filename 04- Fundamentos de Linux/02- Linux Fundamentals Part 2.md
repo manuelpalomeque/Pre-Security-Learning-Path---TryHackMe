@@ -42,6 +42,21 @@ Muestra el contenido de "importante", ¿cuál es la bandera?
 
     THM{SU_USER2}
 
+## Directorios comunes
+
+¿Cuál es la ruta del directorio en el que esperaríamos que se almacenen los registros?
+
+    /var/log
+
+¿Qué directorio raíz es similar a cómo funciona la memoria RAM en una computadora?
+
+    /tmp
+
+Asigne un nombre al directorio de inicio del usuario raíz 
+
+    /root
+
+
 
 
 
