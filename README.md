@@ -23,7 +23,9 @@ Primeros comandos (echo, whoami), Interactuar con el sistema de archivos (ls, cd
 (find, grep, cat). Operadores de Shell (&, &&, >, >>).
 Introducción a banderas e interruptores. Continuación de la interacción del sistema de archivos (touch, mkdir, cp, mv, 
 rm, file). Directorios comunes (/etc, /var, /root, /tmp).
-Editores de texto de terminal (nano, VIM). Utilidades generales 
+Editores de texto de terminal (nano, VIM). Utilidades generales (wget, scp), procesos (ps, ps aux, top, kill, sigterm, 
+sigkill, sigtop, systemctl). Introducción al segundo plano y al primer plano (fg). Automatización, administración de 
+paquetes, registros.
 
 
 #### **_05- Fundamentos de Windows:_** 
