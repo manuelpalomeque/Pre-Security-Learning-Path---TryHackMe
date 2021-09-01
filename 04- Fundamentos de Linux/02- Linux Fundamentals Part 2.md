@@ -58,5 +58,3 @@ Asigne un nombre al directorio de inicio del usuario raíz
 
 
 
-
-
