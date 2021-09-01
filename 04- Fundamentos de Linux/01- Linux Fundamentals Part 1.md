@@ -20,20 +20,25 @@ Si quisiéramos generar el texto " TryHackMe ", ¿cuál sería nuestro comando?
 
 En la máquina Linux que implementa, ¿cuántas carpetas hay?
 
-<img src="">
+<img src="https://github.com/manuelpalomeque/Pre-Security-Learning-Path---TryHackMe/blob/main/04-%20Fundamentos%20de%20Linux/Capturas%20de%20pantall/1%20-ls.png">
+    
     4
 
 ¿Qué directorio contiene un archivo? 
 
-<img src="">
+<img src="https://github.com/manuelpalomeque/Pre-Security-Learning-Path---TryHackMe/blob/main/04-%20Fundamentos%20de%20Linux/Capturas%20de%20pantall/2-%20cd.png">
+    
     folder4
 
 ¿Cuál es el contenido de este archivo?
 
-<img src="">
+<img src="https://github.com/manuelpalomeque/Pre-Security-Learning-Path---TryHackMe/blob/main/04-%20Fundamentos%20de%20Linux/Capturas%20de%20pantall/3%20-cat.png">
+    
     Hello World
 
 Use el comando cd para navegar a este archivo y encontrar el nuevo directorio de trabajo actual. ¿Cuál es el camino?
+
+<img src="https://github.com/manuelpalomeque/Pre-Security-Learning-Path---TryHackMe/blob/main/04-%20Fundamentos%20de%20Linux/Capturas%20de%20pantall/4-%20pwd.png">
 
     /home/tryhackme/folder4
 
@@ -41,7 +46,9 @@ Use el comando cd para navegar a este archivo y encontrar el nuevo directorio de
 
 Use grep en "access.log" para encontrar el indicador que tiene el prefijo "THM". ¿Qué es la bandera?
 
-THM{ACCESS}
+<img src="https://github.com/manuelpalomeque/Pre-Security-Learning-Path---TryHackMe/blob/main/04-%20Fundamentos%20de%20Linux/Capturas%20de%20pantall/5-grep.png">
+
+    THM{ACCESS}
 
 ## Una introducción a los operadores de Shell
 
