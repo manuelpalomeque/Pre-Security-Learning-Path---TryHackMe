@@ -44,3 +44,20 @@ Localice el proceso que se está ejecutando en la instancia implementada (MACHIN
 
     fg
 
+## Mantenimiento de su sistema: automatización
+
+
+¿Cuándo se ejecutará crontab en la instancia implementada ?
+
+    @reboot
+
+## Mantenimiento de su sistema: registros
+
+
+¿Cuál es la dirección IP del usuario que visitó el sitio?
+
+    10.9.232.111
+
+¿A qué archivo accedieron?
+
+    catsanddogs.jpg
