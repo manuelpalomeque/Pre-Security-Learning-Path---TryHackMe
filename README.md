@@ -27,8 +27,12 @@ Editores de texto de terminal (nano, VIM). Utilidades generales (wget, scp), pro
 sigkill, sigtop, systemctl). Introducción al segundo plano y al primer plano (fg). Automatización, administración de 
 paquetes, registros.
 
-
 #### **_05- Fundamentos de Windows:_** 
+Introducción a Windows, ediciones de Windows, el escritorio (GUI), el sistema de archivos, las carpetas 
+Windows\System32, cuentas de usuario, perfiles y permisos. Control de cuentas del usuario, Configuración y el Panel de 
+control, administrador de tareas.
+Configuración del sistema, cambiar la configuración de UAC, gestión informática, información del sistema, monitor de 
+recursos, Símbolo del sistema, Editor de registro.
 
 
     
