@@ -33,6 +33,7 @@ Windows\System32, cuentas de usuario, perfiles y permisos. Control de cuentas de
 control, administrador de tareas.
 Configuración del sistema, cambiar la configuración de UAC, gestión informática, información del sistema, monitor de 
 recursos, Símbolo del sistema, Editor de registro.
-
+Actualizaciones de Windows, Seguridad de Windows, Protección contra virus y amenazas, Cortafuegos y protección de red, 
+Control de aplicaciones y navegador, Seguridad del dispositivo, BitLocker, Servicio de instantáneas de volumen.
 
     
