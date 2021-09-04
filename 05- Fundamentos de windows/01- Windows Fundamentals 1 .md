@@ -50,6 +50,17 @@ Cuál es la variable del sistema para la carpeta de Windows?
 
     Account is disabled
 
+## Configuración y el Panel de control
 
 
+En el Panel de control, cambie la vista a Iconos pequeños . ¿Cuál es la última configuración en la vista del Panel de control?
+
+    Windows Defender Firewall
+
+## Administrador de tareas
+
+
+¿Cuál es el método abreviado de teclado para abrir el Administrador de tareas?
+
+    Ctrl+Shift+Esc
 
