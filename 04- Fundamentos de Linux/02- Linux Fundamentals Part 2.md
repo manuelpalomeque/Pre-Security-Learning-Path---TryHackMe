@@ -87,16 +87,27 @@ En la máquina implementable, ¿cuál es el tipo de archivo "unknown1" en el dir
 
 ## Permisos 101
 
-En la máquina desplegable, ¿quién es el propietario de "importante"?
+En la máquina desplegable, ¿quién es el propietario de "important"?
+
+    tryhackme@linux2:~$ ls -l
+    total 12
+    -rw-r--r-- 1 user2     user2       14 May  5  2021 important
+    drwxr-xr-x 2 tryhackme tryhackme 4096 Feb  9 13:11 myfolder
+    -rw-rw-r-- 1 tryhackme tryhackme    0 Feb  9 13:06 newnote
+    -rw-r--r-- 1 tryhackme tryhackme   17 May  4  2021 unknown1
+    tryhackme@linux2:~$
 
     user2
 
-¿Cuál sería el comando para cambiar al usuario "usuario2"?
+¿Cuál sería el comando para cambiar al usuario "user2"? usar como clave user2
 
-    su user2
+    tryhackme@linux2:~$ su user2
+    Password: 
+    user2@linux2:/home/tryhackme$ 
 
-Muestra el contenido de "importante", ¿cuál es la bandera?
+Muestra el contenido de "important", ¿cuál es la bandera?
 
+    user2@linux2:/home/tryhackme$ cat important
     THM{SU_USER2}
 
 ## Directorios comunes
@@ -105,13 +116,34 @@ Muestra el contenido de "importante", ¿cuál es la bandera?
 
     /var/log
 
+    tryhackme@linux2:/var/log$ ls
+    alternatives.log    apt         btmp.1                 dmesg       dmesg.3.gz  journal     lastlog   syslog.2.gz
+    alternatives.log.1  auth.log    cloud-init-output.log  dmesg.0     dmesg.4.gz  kern.log    private   unattended-upgrades
+    amazon              auth.log.1  cloud-init.log         dmesg.1.gz  dpkg.log    kern.log.1  syslog    wtmp
+    apache2             btmp        dist-upgrade           dmesg.2.gz  dpkg.log.1  landscape   syslog.1
+    tryhackme@linux2:/var/log$ 
+
+
 ¿Qué directorio raíz es similar a cómo funciona la memoria RAM en una computadora?
 
     /tmp
+
+    tryhackme@linux2:/var/log$ cd /tmp
+    tryhackme@linux2:/tmp$ ls
+    snap.lxd
+    systemd-private-24b754f63c0e40b890284459f653fb5a-apache2.service-q3pHfi
+    systemd-private-24b754f63c0e40b890284459f653fb5a-systemd-logind.service-JhnJDh
+    systemd-private-24b754f63c0e40b890284459f653fb5a-systemd-resolved.service-1Lagii
+    systemd-private-24b754f63c0e40b890284459f653fb5a-systemd-timesyncd.service-BrYbaj
 
 Asigne un nombre al directorio de inicio del usuario raíz 
 
     /root
 
+    root@ip-10-10-8-100:~# cd /root
+    root@ip-10-10-8-100:~# pwd
+    /root
+    root@ip-10-10-8-100:~# ls
+    Desktop  Downloads  Instructions  Pictures  Postman  Rooms  Scripts  thinclient_drives  Tools
 
 
