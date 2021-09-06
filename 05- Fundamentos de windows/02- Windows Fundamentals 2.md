@@ -51,3 +51,24 @@ En Variables de entorno, ¿cuál es el valor de ComSpec?
     %SystemRoot%\system32\cmd.exe
 
 ## Monitor de recursos
+
+¿Cuál es el comando para abrir el Monitor de recursos? (La respuesta es el nombre del archivo .exe, no la ruta completa)
+
+    resmon.exe
+
+## Símbolo del sistema
+
+En la configuración del sistema, ¿cuál es el comando completo para la configuración del protocolo de Internet?
+
+    C:\Windows\System32\cmd.exe /k %windir%\system32\ipconfig.exe
+
+Para el comando ipconfig, ¿cómo muestra información detallada?
+
+    ipconfig /all
+
+## Editor de registro
+
+¿Cuál es el comando para abrir el Editor del Registro? (La respuesta es el nombre del archivo .exe, no la ruta completa)
+
+    regedt32.exe
+
