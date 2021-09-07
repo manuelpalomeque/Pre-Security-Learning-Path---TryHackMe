@@ -90,7 +90,6 @@ Use Ctrl + C para detener el módulo Python3 HTTPServer una vez que haya termina
 
 ## Procesos 101
 
-
 Si tuviéramos que lanzar un proceso donde el ID anterior era "300", ¿cuál sería el ID de este nuevo proceso?
 
     301
@@ -99,7 +98,13 @@ Si quisiéramos matar limpiamente un proceso, ¿qué señal le enviaríamos?
 
     SIGTERM
 
-Localice el proceso que se está ejecutando en la instancia implementada (MACHINE_IP). ¿Qué bandera se da?
+Localice el proceso que se está ejecutando en la instancia implementada 10.10.211.75. ¿Qué bandera se da?
+
+
+    tryhackme@linux3:~$ ps aux | less
+    
+    USER         PID %CPU %MEM    VSZ   RSS TTY      STAT START   TIME COMMAND
+    root         711  0.0  0.1   2356   584 ?        S    13:42   0:00 THM{PROCESSES}
 
     THM{PROCESSES}
 
@@ -118,17 +123,73 @@ Localice el proceso que se está ejecutando en la instancia implementada (MACHIN
 ## Mantenimiento de su sistema: automatización
 
 
+Asegúrese de estar conectado a la instancia implementada y mire los crontabs en ejecución.
+
+    tryhackme@linux3:~$ crontab -e
+
+
 ¿Cuándo se ejecutará crontab en la instancia implementada ?
+
+      GNU nano 4.8                                        /tmp/crontab.Pkjy6b/crontab                                                  
+    # Edit this file to introduce tasks to be run by cron.
+    # 
+    # Each task to run has to be defined through a single line
+    # indicating with different fields when the task will be run
+    # and what command to run for the task
+    # 
+    # To define the time you can provide concrete values for
+    # minute (m), hour (h), day of month (dom), month (mon),
+    # and day of week (dow) or use '*' in these fields (for 'any').
+    # 
+    # Notice that tasks will be started based on the cron's system
+    # daemon's notion of time and timezones.
+    # 
+    # Output of the crontab jobs (including errors) is sent through
+    # email to the user the crontab file belongs to (unless redirected).
+    # 
+    # For example, you can run a backup of all your user accounts
+    # at 5 a.m every week with:
+    # 0 5 * * 1 tar -zcf /var/backups/home.tgz /home/
+    # 
+    # For more information see the manual pages of crontab(5) and cron(8)
+    # 
+    # m h  dom mon dow   command
+    @reboot /var/opt/processes.sh
+
 
     @reboot
 
 ## Mantenimiento de su sistema: registros
 
 
+Busque los registros de apache2 en la máquina Linux implementable
+
+    tryhackme@linux3:~$ cd /var/log/apache2
+    tryhackme@linux3:/var/log/apache2$ ls
+    access.log  access.log.1  error.log  error.log.1  other_vhosts_access.log
+    tryhackme@linux3:/var/log/apache2$ ls -l
+    total 12
+    -rw-r----- 1 root adm    0 Feb 10 13:42 access.log
+    -rwxrwxrwx 1 root adm  209 May  4  2021 access.log.1
+    -rw-r----- 1 root adm  688 Feb 10 13:42 error.log
+    -rwxrwxrwx 1 root adm 2001 May  5  2021 error.log.1
+    -rw-r----- 1 root adm    0 May  4  2021 other_vhosts_access.log
+    tryhackme@linux3:/var/log/apache2$ 
+
+
 ¿Cuál es la dirección IP del usuario que visitó el sitio?
+
+    tryhackme@linux3:/var/log/apache2$ less access.log.1
+
+    10.9.232.111 - - [04/May/2021:18:18:16 +0000] "GET /catsanddogs.jpg HTTP/1.1" 200 51395 "-" "Mozilla/5.0 
+    (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/90.0.4430.93 Safari/537.36"
 
     10.9.232.111
 
 ¿A qué archivo accedieron?
+
+
+    10.9.232.111 - - [04/May/2021:18:18:16 +0000] "GET /catsanddogs.jpg HTTP/1.1" 200 51395 "-" "Mozilla/5.0 
+    (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/90.0.4430.93 Safari/537.36"
 
     catsanddogs.jpg
